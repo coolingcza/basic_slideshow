@@ -18,18 +18,11 @@ class Slide
   end
   
   def set_prev
-    num_slides = Slide.all.length
-    if @place == 0
-      @prev_s == nil
-    else
-      @prev_s = @place - 1
-    end
-    @prev_s
+    @prev_s = @place - 1
   end
     
   def set_next
-    num_slides = Slide.all.length
-    if @place == num_slides-1
+    if @place == Slide.all.length
       @next_s = nil
     else
       @next_s = @place + 1

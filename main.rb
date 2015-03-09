@@ -18,7 +18,7 @@ end
 
 
 get "/start_slideshow" do
-  slide = Slide.find(0)
+  slide = Slide.find(1)
 
   slide_hash = slide.to_hash
 
