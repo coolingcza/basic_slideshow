@@ -1,6 +1,55 @@
 
 #slide {
   visibility: "hidden";
+/*  float: left;*/
+/*  width: 100%;*/
+  background: #A0A0A0;
+  color: white;
+  text-align: center;
+  width: 80%;
+  min-width: 400px;
+  margin: 0 auto;
+  padding: 1em 0px 1em 0px;
+}
+
+#slide h1 {
+  text-decoration: underline;
+  color: #404040;
+}
+
+#slide button img{
+  max-width: 100%;
+  max-height: 100%;
+}
+
+#slide button{
+  max-width: 16%;
+  border: 0;
+  padding: 0;
+  background: #A0A0A0;
+  position: relative;
+  top: 7px;
+}
+
+#slide p{
+  background: #C0C0C0;
+  color: black;
+  width: 94%;
+  margin: 0 auto;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+#prev_s{
+  position: relative;
   float: left;
-  width: 100%;
+  z-index: 0;
+  height: 50px;
+}
+
+#next_s{
+  position: relative;
+  float: right;
+  z-index: 0;
+  height: 50px;
 }
